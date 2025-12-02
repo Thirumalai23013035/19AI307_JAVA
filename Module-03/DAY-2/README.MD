@@ -44,9 +44,11 @@ public class StringBufferExample3{
 ```
 ## OUTPUT:
 
+<img width="876" height="226" alt="Screenshot 2025-10-09 210318" src="https://github.com/user-attachments/assets/def49de1-f5b8-4fb6-95fe-f8cd235ceb04" />
 
 
 ## RESULT:
 
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.
+
 
