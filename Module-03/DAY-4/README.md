@@ -21,22 +21,28 @@ To create a java program using StringTokenizer class that tokenizes a string "My
  ```
 /*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: THIRUMALAI V
+RegisterNumber: 212223040229
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+import java.util.StringTokenizer;  
+public class Simple{  
+ public static void main(String args[]){  
+   StringTokenizer st = new StringTokenizer("My name is Java Programming"," ");  
+     while (st.hasMoreTokens()) {  
+         System.out.println(st.nextToken());  
+     }  
+   }  
+}  
+```
 ## OUTPUT:
 
+<img width="463" height="295" alt="Screenshot 2025-10-09 212611" src="https://github.com/user-attachments/assets/a33d29c2-f353-479a-b585-72ac3556b937" />
 
 
 ## RESULT:
 Thus the java program using StringTokenizer class that tokenizes a string "My name is Java Programming" on the basis of whitespace was executed successfully.
+
